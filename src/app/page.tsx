@@ -606,13 +606,13 @@ export default function Home() {
       >
 
         <h3 className="text-3xl font-bold text-cyan-400">
-          SLTC UniGO
+          Traffic Violation System
         </h3>
 
         <p className="mt-6 text-gray-300 leading-8">
 
-          University security verification platform with QR code
-          authentication and student database integration.
+A Traffic Violation Management System is a web-based system that detects and manages traffic violations digitally. 
+          It uses HTML, CSS, JavaScript, React, PHP/Node.js, and MySQL/Firebase to record violations, generate fines, and improve road safety.
 
         </p>
 
