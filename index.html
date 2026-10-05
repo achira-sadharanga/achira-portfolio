@@ -1,0 +1,3815 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+
+    <!-- =====================================================
+         BASIC PAGE SETTINGS
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- =====================================================
+         SEO
+    ====================================================== -->
+
+    <title>
+        Achira Sadharanga | Data Science, AI & Software
+    </title>
+
+    <meta
+        name="description"
+        content="Portfolio of Achira Sadharanga, a Data Science undergraduate working across artificial intelligence, machine learning, data analytics and software development."
+    >
+
+    <meta
+        name="keywords"
+        content="Achira Sadharanga, Data Science, Artificial Intelligence, Machine Learning, Data Analyst, Software Developer, Sri Lanka"
+    >
+
+    <meta
+        name="author"
+        content="Achira Sadharanga"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <meta
+        name="theme-color"
+        content="#07080a"
+        id="themeColorMeta"
+    >
+
+
+    <!-- =====================================================
+         OPEN GRAPH
+    ====================================================== -->
+
+    <meta
+        property="og:title"
+        content="Achira Sadharanga | Data Science, AI & Software"
+    >
+
+    <meta
+        property="og:description"
+        content="Data Science, Artificial Intelligence, Machine Learning and Software Development portfolio."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:image"
+        content="assets/images/achira-profile.jpg"
+    >
+
+
+    <!-- =====================================================
+         TWITTER / SOCIAL PREVIEW
+    ====================================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        content="Achira Sadharanga | Portfolio"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Data Science × AI × Software"
+    >
+
+
+    <!-- =====================================================
+         FAVICON
+    ====================================================== -->
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="assets/images/favicon.svg"
+    >
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         PRELOADER
+    ====================================================== -->
+
+    <div
+        class="preloader"
+        id="preloader"
+    >
+
+        <div class="preloader-content">
+
+            <div class="preloader-logo">
+                A<span>.</span>
+            </div>
+
+            <div class="preloader-line">
+
+                <div
+                    class="preloader-progress"
+                    id="preloaderProgress"
+                ></div>
+
+            </div>
+
+            <div class="preloader-bottom">
+
+                <span>
+                    LOADING PORTFOLIO
+                </span>
+
+                <span id="loaderNumber">
+                    0%
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PAGE SCROLL PROGRESS
+    ====================================================== -->
+
+    <div
+        class="page-progress"
+        id="pageProgress"
+    ></div>
+
+
+
+    <!-- =====================================================
+         BACKGROUND EFFECTS
+    ====================================================== -->
+
+    <div class="background-grid"></div>
+
+    <div class="glow glow-one"></div>
+
+    <div class="glow glow-two"></div>
+
+
+
+    <!-- =====================================================
+         CURSOR EFFECTS
+    ====================================================== -->
+
+    <div
+        class="cursor-glow"
+        id="cursorGlow"
+    ></div>
+
+    <div
+        class="custom-cursor"
+        id="customCursor"
+    ></div>
+
+    <div
+        class="cursor-dot"
+        id="cursorDot"
+    ></div>
+
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+
+            <!-- Logo -->
+
+            <a
+                href="#home"
+                class="logo"
+            >
+                ACHIRA<span>.</span>
+            </a>
+
+
+
+            <!-- Navigation -->
+
+            <div
+                class="nav-menu"
+                id="navMenu"
+            >
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    Home
+                </a>
+
+                <a
+                    href="#about"
+                    class="nav-link"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#skills"
+                    class="nav-link"
+                >
+                    Skills
+                </a>
+
+                <a
+                    href="#projects"
+                    class="nav-link"
+                >
+                    Projects
+                </a>
+
+                <a
+                    href="#journey"
+                    class="nav-link"
+                >
+                    Journey
+                </a>
+
+                <a
+                    href="#contact"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </div>
+
+
+
+            <!-- Navigation Actions -->
+
+            <div class="nav-actions">
+
+
+                <!-- Theme -->
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Change color theme"
+                >
+
+                    <span class="theme-icon sun-icon">
+                        ☼
+                    </span>
+
+                    <span class="theme-icon moon-icon">
+                        ◐
+                    </span>
+
+                </button>
+
+
+
+                <!-- Resume -->
+
+                <a
+                    href="assets/documents/Achira-Sadharanga-Resume.pdf"
+                    class="nav-resume magnetic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    Resume
+
+                    <span>
+                        ↗
+                    </span>
+
+                </a>
+
+
+
+                <!-- Mobile Menu -->
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                >
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="container hero-container">
+
+
+                <!-- LEFT -->
+
+                <div class="hero-content">
+
+
+                    <div class="availability">
+
+                        <span class="availability-dot"></span>
+
+                        Available for opportunities
+
+                    </div>
+
+
+                    <p class="hero-intro">
+                        Hello, I'm
+                    </p>
+
+
+                    <h1 class="hero-title">
+
+                        Achira
+
+                        <span>
+                            Sadharanga.
+                        </span>
+
+                    </h1>
+
+
+                    <div class="profession-wrapper">
+
+                        <span class="profession-prefix">
+                            I work with
+                        </span>
+
+                        <span
+                            class="profession-text"
+                            id="professionText"
+                        >
+                            Data Science
+                        </span>
+
+                    </div>
+
+
+                    <p class="hero-description">
+
+                        Data Science undergraduate focused on building
+                        intelligent systems using
+
+                        <strong>
+                            Artificial Intelligence,
+                        </strong>
+
+                        <strong>
+                            Machine Learning,
+                        </strong>
+
+                        data and modern software technologies.
+
+                    </p>
+
+
+                    <!-- Buttons -->
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#projects"
+                            class="btn btn-primary magnetic"
+                        >
+
+                            View My Work
+
+                            <span class="btn-arrow">
+                                ↗
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="#about"
+                            class="btn btn-secondary magnetic"
+                        >
+
+                            More About Me
+
+                            <span>
+                                ↓
+                            </span>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Social -->
+
+                    <div class="hero-social">
+
+                        <span>
+                            Find me online
+                        </span>
+
+                        <div class="social-line"></div>
+
+
+                        <a
+                            href="https://www.linkedin.com/in/achira-sadharanga"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn ↗
+                        </a>
+
+
+                        <a
+                            href="https://github.com/achira-sadharanga"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+
+                    <!-- Resume Download -->
+
+                    <a
+                        href="assets/documents/Achira-Sadharanga-Resume.pdf"
+                        download
+                        class="hero-resume-link"
+                    >
+
+                        Download CV
+
+                        <span>
+                            ↓
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- RIGHT IMAGE -->
+
+                <div class="hero-visual">
+
+                    <div class="image-wrapper">
+
+
+                        <div class="image-code code-one">
+                            AI
+                        </div>
+
+                        <div class="image-code code-two">
+                            &lt;/&gt;
+                        </div>
+
+                        <div class="image-code code-three">
+                            DATA
+                        </div>
+
+
+                        <!-- Profile -->
+
+                        <div class="profile-image-container">
+
+                            <img
+                                src="assets/images/achira-profile.jpg"
+                                alt="Achira Sadharanga"
+                                class="profile-image"
+                                loading="lazy"
+                            >
+
+                            <div class="image-overlay"></div>
+
+                        </div>
+
+
+                        <!-- Floating Card -->
+
+                        <div class="floating-card">
+
+                            <div class="floating-card-icon">
+                                AS
+                            </div>
+
+                            <div>
+
+                                <p>
+                                    Data × AI
+                                </p>
+
+                                <span>
+                                    Building intelligent systems
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Focus -->
+
+                        <div class="experience-card">
+
+                            <span class="experience-number">
+                                01
+                            </span>
+
+                            <div>
+
+                                <p>
+                                    Focus
+                                </p>
+
+                                <strong>
+                                    AI + Data
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Scroll -->
+
+            <a
+                href="#about"
+                class="scroll-indicator"
+            >
+
+                <span>
+                    Scroll
+                </span>
+
+                <div class="scroll-line"></div>
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <div class="section-number">
+                        01
+                    </div>
+
+                    <div>
+
+                        <p class="section-label">
+                            ABOUT ME
+                        </p>
+
+                        <h2 class="section-title">
+
+                            Data.
+                            Intelligence.
+
+                            <span>
+                                Engineering.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="about-grid">
+
+
+                    <!-- Main About -->
+
+                    <article
+                        class="about-card about-main reveal interactive-glow"
+                    >
+
+                        <div class="about-main-top">
+
+                            <span class="mini-label">
+                                WHO I AM
+                            </span>
+
+                            <span class="card-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+
+                            I build technology that turns
+
+                            <span>
+                                complex data
+                            </span>
+
+                            into useful solutions.
+
+                        </h3>
+
+
+                        <div>
+
+                            <p>
+
+                                I'm Achira Sadharanga, a Data Science
+                                undergraduate at Sri Lanka Technology
+                                Campus with interests across artificial
+                                intelligence, machine learning, data
+                                analytics and software development.
+
+                            </p>
+
+
+                            <p>
+
+                                I enjoy combining research, data and
+                                software engineering to build intelligent
+                                systems that solve real-world problems.
+
+                            </p>
+
+
+                            <div class="about-tags">
+
+                                <span>
+                                    Data Science
+                                </span>
+
+                                <span>
+                                    Artificial Intelligence
+                                </span>
+
+                                <span>
+                                    Machine Learning
+                                </span>
+
+                                <span>
+                                    Software Development
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Photo -->
+
+                    <article
+                        class="about-card about-photo-card reveal"
+                    >
+
+                        <div class="about-photo-wrapper">
+
+                            <img
+                                src="assets/images/achira-profile.jpg"
+                                alt="Achira Sadharanga"
+                                class="about-photo"
+                                loading="lazy"
+                            >
+
+                            <div class="about-photo-gradient"></div>
+
+
+                            <div class="photo-content">
+
+                                <span>
+                                    BASED IN
+                                </span>
+
+                                <h3>
+                                    Sri Lanka
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Education -->
+
+                    <article
+                        class="about-card education-card reveal interactive-glow"
+                    >
+
+                        <div class="card-icon">
+                            01
+                        </div>
+
+
+                        <p class="mini-label">
+                            EDUCATION
+                        </p>
+
+
+                        <h3>
+
+                            BSc (Hons)
+
+                            <span>
+                                Data Science
+                            </span>
+
+                        </h3>
+
+
+                        <p>
+                            Sri Lanka Technology Campus
+                        </p>
+
+
+                        <div class="education-year">
+                            2023 — Present
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Focus -->
+
+                    <article
+                        class="about-card focus-card reveal interactive-glow"
+                    >
+
+                        <p class="mini-label">
+                            CURRENT FOCUS
+                        </p>
+
+
+                        <div class="focus-orbit">
+
+                            <div class="orbit-ring orbit-one"></div>
+
+                            <div class="orbit-ring orbit-two"></div>
+
+
+                            <div class="orbit-center">
+                                AI
+                            </div>
+
+
+                            <span class="orbit-item orbit-item-one">
+                                ML
+                            </span>
+
+                            <span class="orbit-item orbit-item-two">
+                                DATA
+                            </span>
+
+                            <span class="orbit-item orbit-item-three">
+                                XAI
+                            </span>
+
+                        </div>
+
+
+                        <p class="focus-description">
+                            Building intelligent and explainable systems.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- 169K -->
+
+                    <article
+                        class="about-card stat-card reveal interactive-glow"
+                    >
+
+                        <span
+                            class="stat-number"
+                            data-target="169"
+                            data-suffix="K+"
+                        >
+                            0
+                        </span>
+
+                        <h4>
+                            Academic Papers
+                        </h4>
+
+                        <p>
+                            Graph-learning dataset used in the
+                            OGBN-Arxiv project.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- 278 -->
+
+                    <article
+                        class="about-card stat-card reveal interactive-glow"
+                    >
+
+                        <span
+                            class="stat-number"
+                            data-target="278"
+                            data-suffix="+"
+                        >
+                            0
+                        </span>
+
+                        <h4>
+                            Passing Tests
+                        </h4>
+
+                        <p>
+                            Across the Public Pulse end-to-end system.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- 100 -->
+
+                    <article
+                        class="about-card stat-card reveal interactive-glow"
+                    >
+
+                        <span
+                            class="stat-number"
+                            data-target="100"
+                            data-suffix="%"
+                        >
+                            0
+                        </span>
+
+                        <h4>
+                            Usability Success
+                        </h4>
+
+                        <p>
+                            Achieved during Vow & Vision usability testing.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- Philosophy -->
+
+                    <article
+                        class="about-card philosophy-card reveal interactive-glow"
+                    >
+
+                        <p class="mini-label">
+                            MY APPROACH
+                        </p>
+
+
+                        <blockquote>
+
+                            “Understand the problem.
+                            Explore the data.
+                            Build intelligently.
+                            Explain clearly.”
+
+                        </blockquote>
+
+
+                        <div class="philosophy-footer">
+
+                            <span>
+                                THINK
+                            </span>
+
+                            <span>
+                                BUILD
+                            </span>
+
+                            <span>
+                                IMPROVE
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SKILLS
+        ================================================== -->
+
+        <section
+            class="skills-section"
+            id="skills"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <div class="section-number">
+                        02
+                    </div>
+
+                    <div>
+
+                        <p class="section-label">
+                            TECHNOLOGY
+                        </p>
+
+                        <h2 class="section-title">
+
+                            Tools I use to turn ideas into
+
+                            <span>
+                                intelligent systems.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="skills-intro reveal">
+
+                    <p>
+
+                        My technology stack combines data science,
+                        artificial intelligence, data engineering
+                        and modern software development.
+
+                    </p>
+
+                    <span>
+                        SELECT A CATEGORY ↓
+                    </span>
+
+                </div>
+
+
+
+                <!-- Filters -->
+
+                <div class="skill-filters reveal">
+
+                    <button
+                        class="skill-filter active"
+                        data-filter="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="skill-filter"
+                        data-filter="programming"
+                    >
+                        Programming
+                    </button>
+
+                    <button
+                        class="skill-filter"
+                        data-filter="ai"
+                    >
+                        AI / ML
+                    </button>
+
+                    <button
+                        class="skill-filter"
+                        data-filter="data"
+                    >
+                        Data
+                    </button>
+
+                    <button
+                        class="skill-filter"
+                        data-filter="database"
+                    >
+                        Databases
+                    </button>
+
+                    <button
+                        class="skill-filter"
+                        data-filter="development"
+                    >
+                        Development
+                    </button>
+
+                    <button
+                        class="skill-filter"
+                        data-filter="tools"
+                    >
+                        Tools
+                    </button>
+
+                </div>
+
+
+
+                <!-- Skills -->
+
+                <div class="skills-grid">
+
+
+                    <!-- Python -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="programming"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                01
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon python-icon">
+                            PY
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Python
+                            </h3>
+
+                            <p>
+                                Programming
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Java -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="programming"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                02
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon">
+                            JV
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Java
+                            </h3>
+
+                            <p>
+                                Programming
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- JavaScript -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="programming development"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                03
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon development-icon">
+                            JS
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                JavaScript
+                            </h3>
+
+                            <p>
+                                Web Development
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SQL -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="programming database"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                04
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon database-icon">
+                            SQL
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                SQL
+                            </h3>
+
+                            <p>
+                                Data & Databases
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PyTorch -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="ai"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                05
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon ai-icon">
+                            PT
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                PyTorch
+                            </h3>
+
+                            <p>
+                                Deep Learning
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Scikit -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="ai"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                06
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon ai-icon">
+                            SK
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Scikit-learn
+                            </h3>
+
+                            <p>
+                                Machine Learning
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- XGBoost -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="ai"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                07
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon ai-icon">
+                            XG
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                XGBoost
+                            </h3>
+
+                            <p>
+                                Machine Learning
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- NLP -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="ai"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                08
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon ai-icon">
+                            NLP
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                NLP
+                            </h3>
+
+                            <p>
+                                Artificial Intelligence
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- LLM -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="ai"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                09
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon ai-icon">
+                            LLM
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                LLMs & RAG
+                            </h3>
+
+                            <p>
+                                Generative AI
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- XAI -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="ai"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                10
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon ai-icon">
+                            XAI
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                SHAP & LIME
+                            </h3>
+
+                            <p>
+                                Explainable AI
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Pandas -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="data"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                11
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon data-icon">
+                            PD
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Pandas
+                            </h3>
+
+                            <p>
+                                Data Analysis
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- NumPy -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="data"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                12
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon data-icon">
+                            NP
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                NumPy
+                            </h3>
+
+                            <p>
+                                Scientific Computing
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Power BI -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="data"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                13
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon data-icon">
+                            BI
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Power BI
+                            </h3>
+
+                            <p>
+                                Data Visualization
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PySpark -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="data"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                14
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon data-icon">
+                            PS
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                PySpark
+                            </h3>
+
+                            <p>
+                                Big Data
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Airflow -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="data"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                15
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon data-icon">
+                            AF
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Apache Airflow
+                            </h3>
+
+                            <p>
+                                Data Engineering
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- MySQL -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="database"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                16
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon database-icon">
+                            MY
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                MySQL
+                            </h3>
+
+                            <p>
+                                Database
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PostgreSQL -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="database"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                17
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon database-icon">
+                            PG
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                PostgreSQL
+                            </h3>
+
+                            <p>
+                                Database
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- MongoDB -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="database"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                18
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon database-icon">
+                            DB
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                MongoDB
+                            </h3>
+
+                            <p>
+                                NoSQL Database
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Flask -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="development"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                19
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon development-icon">
+                            FL
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Flask
+                            </h3>
+
+                            <p>
+                                Backend Development
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- React -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="development"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                20
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon development-icon">
+                            RE
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                React
+                            </h3>
+
+                            <p>
+                                Frontend Development
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- TypeScript -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="development"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                21
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon development-icon">
+                            TS
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                TypeScript
+                            </h3>
+
+                            <p>
+                                Web Development
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Git -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="tools"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                22
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon tools-icon">
+                            GT
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Git & GitHub
+                            </h3>
+
+                            <p>
+                                Version Control
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Docker -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="tools"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                23
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon tools-icon">
+                            DK
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Docker
+                            </h3>
+
+                            <p>
+                                Development Tools
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Jupyter -->
+
+                    <article
+                        class="skill-card reveal interactive-glow"
+                        data-category="tools"
+                    >
+
+                        <div class="skill-top">
+
+                            <span class="skill-index">
+                                24
+                            </span>
+
+                            <span class="skill-arrow">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <div class="skill-icon tools-icon">
+                            JN
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Jupyter
+                            </h3>
+
+                            <p>
+                                Data Science
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- Banner -->
+
+                <div class="technology-banner reveal">
+
+                    <div>
+
+                        <span>
+                            CURRENT DIRECTION
+                        </span>
+
+                        <h3>
+                            Data Science × AI × Software
+                        </h3>
+
+                    </div>
+
+
+                    <div class="technology-status">
+
+                        <span class="status-dot"></span>
+
+                        Continuously learning
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PROJECTS
+        ================================================== -->
+
+        <section
+            class="projects-section"
+            id="projects"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <div class="section-number">
+                        03
+                    </div>
+
+                    <div>
+
+                        <p class="section-label">
+                            SELECTED WORK
+                        </p>
+
+                        <h2 class="section-title">
+
+                            Projects built around
+
+                            <span>
+                                real problems.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="projects-intro reveal">
+
+                    <p>
+
+                        A selection of my work across machine learning,
+                        artificial intelligence, computer vision,
+                        explainable AI, graph learning and software
+                        development.
+
+                    </p>
+
+                    <span>
+                        04 FEATURED PROJECTS
+                    </span>
+
+                </div>
+
+
+
+                <!-- PROJECT 01 -->
+
+                <article class="project-featured reveal">
+
+                    <div class="project-featured-image">
+
+                        <img
+                            src="assets/images/projects/vehicle-ai.jpg"
+                            alt="Explainable AI and 3D Vehicle Failure Management Project"
+                            loading="lazy"
+                        >
+
+                        <div class="project-image-overlay"></div>
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <div class="project-image-label">
+                            FINAL YEAR RESEARCH
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-featured-content">
+
+                        <div>
+
+                            <p class="project-category">
+                                MACHINE LEARNING · XAI · 3D
+                            </p>
+
+
+                            <h3>
+
+                                Explainable AI &
+                                3D Vehicle Failure Management
+
+                            </h3>
+
+
+                            <p class="project-description">
+
+                                Intelligent predictive maintenance
+                                system for Toyota Aqua / Prius C
+                                vehicles using machine learning,
+                                Explainable AI and interactive
+                                3D visualization.
+
+                            </p>
+
+
+                            <div class="project-tags">
+
+                                <span>Python</span>
+                                <span>Random Forest</span>
+                                <span>XGBoost</span>
+                                <span>SHAP</span>
+                                <span>LIME</span>
+                                <span>Flask</span>
+                                <span>Three.js</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project-actions">
+
+                            <button
+                                class="project-btn primary project-details-btn"
+                                data-project="vehicle"
+                            >
+
+                                View Case Study
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </button>
+
+
+                            <a
+                                href="https://github.com/achira-sadharanga"
+                                class="project-btn secondary"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+
+                                GitHub
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT GRID -->
+
+                <div class="projects-grid">
+
+
+                    <!-- Public Pulse -->
+
+                    <article
+                        class="project-card reveal interactive-glow"
+                    >
+
+                        <div class="project-card-image">
+
+                            <img
+                                src="assets/images/projects/public-pulse.jpg"
+                                alt="Public Pulse AI Platform"
+                                loading="lazy"
+                            >
+
+                            <div class="project-image-overlay"></div>
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-card-content">
+
+                            <p class="project-category">
+                                NLP · RAG · GRAPH AI
+                            </p>
+
+
+                            <h3>
+                                Public Pulse
+                            </h3>
+
+
+                            <p>
+
+                                Grounded multilingual civic
+                                intelligence platform combining
+                                NLP, LLMs, RAG and Graph Neural
+                                Networks.
+
+                            </p>
+
+
+                            <div class="project-tags">
+
+                                <span>XLM-RoBERTa</span>
+                                <span>RAG</span>
+                                <span>Gemini</span>
+                                <span>GNN</span>
+                                <span>React</span>
+
+                            </div>
+
+
+                            <button
+                                class="project-link project-details-btn"
+                                data-project="pulse"
+                            >
+
+                                Explore project
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Traffic -->
+
+                    <article
+                        class="project-card reveal interactive-glow"
+                    >
+
+                        <div class="project-card-image">
+
+                            <img
+                                src="assets/images/projects/traffic-ai.jpg"
+                                alt="Traffic Rule Violation Detection System"
+                                loading="lazy"
+                            >
+
+                            <div class="project-image-overlay"></div>
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-card-content">
+
+                            <p class="project-category">
+                                COMPUTER VISION · ANPR
+                            </p>
+
+
+                            <h3>
+                                Traffic Violation AI
+                            </h3>
+
+
+                            <p>
+
+                                AI-powered traffic monitoring system
+                                for detecting road violations and
+                                identifying vehicles using computer
+                                vision.
+
+                            </p>
+
+
+                            <div class="project-tags">
+
+                                <span>YOLO</span>
+                                <span>OpenCV</span>
+                                <span>CNN</span>
+                                <span>ANPR</span>
+                                <span>PostgreSQL</span>
+
+                            </div>
+
+
+                            <button
+                                class="project-link project-details-btn"
+                                data-project="traffic"
+                            >
+
+                                Explore project
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Vow & Vision -->
+
+                    <article
+                        class="project-card project-card-wide reveal interactive-glow"
+                    >
+
+                        <div class="project-card-image">
+
+                            <img
+                                src="assets/images/projects/vow-vision.jpg"
+                                alt="Vow and Vision Wedding Planning Platform"
+                                loading="lazy"
+                            >
+
+                            <div class="project-image-overlay"></div>
+
+                            <span class="project-number">
+                                04
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-card-content">
+
+                            <p class="project-category">
+                                PRODUCT DESIGN · UI/UX
+                            </p>
+
+
+                            <h3>
+                                Vow & Vision
+                            </h3>
+
+
+                            <p>
+
+                                AI-assisted wedding planning platform
+                                designed around vendor management,
+                                budgeting, guest coordination and
+                                human-centred user experience.
+
+                            </p>
+
+
+                            <div class="project-tags">
+
+                                <span>Figma</span>
+                                <span>Maze</span>
+                                <span>UI/UX</span>
+                                <span>Human-Centered Design</span>
+
+                            </div>
+
+
+                            <button
+                                class="project-link project-details-btn"
+                                data-project="vow"
+                            >
+
+                                Explore project
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- GitHub -->
+
+                <div class="more-projects reveal">
+
+                    <div>
+
+                        <span>
+                            MORE ON GITHUB
+                        </span>
+
+                        <h3>
+
+                            Experiments, coursework,
+                            prototypes & more.
+
+                        </h3>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/achira-sadharanga"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="github-circle"
+                    >
+
+                        GitHub
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             JOURNEY
+        ================================================== -->
+
+        <section
+            class="journey-section"
+            id="journey"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <div class="section-number">
+                        04
+                    </div>
+
+                    <div>
+
+                        <p class="section-label">
+                            MY JOURNEY
+                        </p>
+
+                        <h2 class="section-title">
+
+                            Learning.
+                            Leading.
+
+                            <span>
+                                Building.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="journey-intro reveal">
+
+                    <p>
+
+                        My journey combines academic learning,
+                        technical development and leadership
+                        experiences that have shaped the way
+                        I approach people, projects and technology.
+
+                    </p>
+
+                    <span>
+                        EDUCATION × LEADERSHIP
+                    </span>
+
+                </div>
+
+
+
+                <div class="journey-layout">
+
+
+                    <!-- EDUCATION -->
+
+                    <div class="journey-column">
+
+
+                        <div class="journey-column-heading reveal">
+
+                            <span class="journey-small-number">
+                                01
+                            </span>
+
+                            <div>
+
+                                <p>
+                                    EDUCATION
+                                </p>
+
+                                <h3>
+
+                                    Academic
+
+                                    <span>
+                                        Foundation
+                                    </span>
+
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- University -->
+
+                        <article class="timeline-item reveal">
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        2023 — PRESENT
+                                    </span>
+
+                                    <span class="timeline-status">
+                                        CURRENT
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Bachelor of Science
+                                    (Hons) in Data Science
+
+                                </h4>
+
+
+                                <p class="timeline-place">
+                                    Sri Lanka Technology Campus
+                                </p>
+
+
+                                <p class="timeline-description">
+
+                                    Building knowledge across data science,
+                                    machine learning, artificial intelligence,
+                                    analytics and software technologies
+                                    through academic work and research projects.
+
+                                </p>
+
+
+                                <div class="timeline-tags">
+
+                                    <span>
+                                        Data Science
+                                    </span>
+
+                                    <span>
+                                        Machine Learning
+                                    </span>
+
+                                    <span>
+                                        AI
+                                    </span>
+
+                                    <span>
+                                        Research
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- School -->
+
+                        <article class="timeline-item reveal">
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        2022
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    G.C.E. Advanced Level
+                                </h4>
+
+
+                                <p class="timeline-place">
+                                    Richmond College, Galle
+                                </p>
+
+
+                                <p class="timeline-description">
+
+                                    Completed Advanced Level studies
+                                    in the Engineering Technology stream.
+
+                                </p>
+
+
+                                <div class="timeline-tags">
+
+                                    <span>
+                                        Engineering Technology
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- LEADERSHIP -->
+
+                    <div class="journey-column">
+
+
+                        <div class="journey-column-heading reveal">
+
+                            <span class="journey-small-number">
+                                02
+                            </span>
+
+                            <div>
+
+                                <p>
+                                    LEADERSHIP
+                                </p>
+
+                                <h3>
+
+                                    Beyond the
+
+                                    <span>
+                                        classroom
+                                    </span>
+
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- ITIA -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        FOUNDER
+                                    </span>
+
+                                    <span class="featured-role">
+                                        FEATURED
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Information Technology &
+                                    Industry Association
+
+                                </h4>
+
+
+                                <p class="timeline-place">
+
+                                    Faculty of Computing & IT · SLTC
+
+                                </p>
+
+
+                                <p class="timeline-description">
+
+                                    Founded a student-focused association
+                                    connecting technology education,
+                                    professional development and
+                                    industry engagement.
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- Leo -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        2025 — 2026
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    Club President
+                                </h4>
+
+
+                                <p class="timeline-place">
+                                    Leo Club of SLTC
+                                </p>
+
+
+                                <p class="timeline-description">
+
+                                    Led student initiatives, projects,
+                                    coordination and community-focused
+                                    activities as Club President.
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- Faculty Rep -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        REPRESENTATION
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    Faculty Representative
+                                </h4>
+
+
+                                <p class="timeline-place">
+
+                                    Faculty of Computing & IT · SLTC
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- Media -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        MEDIA
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    Senior Moderator
+                                </h4>
+
+
+                                <p class="timeline-place">
+                                    Media Unit · SLTC
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- SIS -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        2024 — 2025
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    Committee Head
+                                </h4>
+
+
+                                <p class="timeline-place">
+
+                                    SLTC Student Interactive Society
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- AIESEC -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        2025 — 2026
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    Leadership Board Leader
+                                </h4>
+
+
+                                <p class="timeline-place">
+                                    AIESEC Colombo South
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- IEEE -->
+
+                        <article
+                            class="timeline-item leadership-item reveal"
+                        >
+
+                            <div class="timeline-marker"></div>
+
+
+                            <div class="timeline-content interactive-glow">
+
+                                <div class="timeline-meta">
+
+                                    <span>
+                                        COMMUNITY
+                                    </span>
+
+                                </div>
+
+
+                                <h4>
+                                    Member
+                                </h4>
+
+
+                                <p class="timeline-place">
+                                    IEEE Student Branch
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Summary -->
+
+                <div class="journey-summary reveal">
+
+                    <div class="journey-summary-label">
+
+                        <span class="summary-dot"></span>
+
+                        WHAT THIS JOURNEY TAUGHT ME
+
+                    </div>
+
+
+                    <h3>
+
+                        Technology becomes more meaningful when
+
+                        <span>
+                            technical ability
+                        </span>
+
+                        is combined with
+
+                        <span>
+                            communication and leadership.
+                        </span>
+
+                    </h3>
+
+
+                    <div class="journey-values">
+
+                        <div>
+
+                            <span>
+                                01
+                            </span>
+
+                            <p>
+                                Leadership
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                02
+                            </span>
+
+                            <p>
+                                Collaboration
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                03
+                            </span>
+
+                            <p>
+                                Problem Solving
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                04
+                            </span>
+
+                            <p>
+                                Continuous Learning
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <div class="section-number">
+                        05
+                    </div>
+
+                    <div>
+
+                        <p class="section-label">
+                            GET IN TOUCH
+                        </p>
+
+                        <h2 class="section-title">
+
+                            Have an idea?
+
+                            <span>
+                                Let's build it.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-layout">
+
+
+                    <!-- Info -->
+
+                    <div class="contact-info reveal">
+
+                        <p class="contact-intro">
+
+                            I'm interested in opportunities involving
+                            data science, artificial intelligence,
+                            machine learning, analytics and software
+                            development.
+
+                        </p>
+
+
+
+                        <!-- Profile -->
+
+                        <div class="contact-profile">
+
+                            <div class="contact-profile-image">
+
+                                <img
+                                    src="assets/images/achira-profile.jpg"
+                                    alt="Achira Sadharanga"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div>
+
+                                <h3>
+                                    Achira Sadharanga
+                                </h3>
+
+                                <p>
+                                    Data Science · AI · Software
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Links -->
+
+                        <div class="contact-links">
+
+
+                            <!-- Email -->
+
+                            <a
+                                href="mailto:a.sadharanga@gmail.com"
+                                class="contact-link-card"
+                            >
+
+                                <div>
+
+                                    <span class="contact-link-label">
+                                        EMAIL
+                                    </span>
+
+                                    <p>
+                                        a.sadharanga@gmail.com
+                                    </p>
+
+                                </div>
+
+                                <span class="contact-link-arrow">
+                                    ↗
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- LinkedIn -->
+
+                            <a
+                                href="https://www.linkedin.com/in/achira-sadharanga"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contact-link-card"
+                            >
+
+                                <div>
+
+                                    <span class="contact-link-label">
+                                        LINKEDIN
+                                    </span>
+
+                                    <p>
+                                        /in/achira-sadharanga
+                                    </p>
+
+                                </div>
+
+                                <span class="contact-link-arrow">
+                                    ↗
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- GitHub -->
+
+                            <a
+                                href="https://github.com/achira-sadharanga"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contact-link-card"
+                            >
+
+                                <div>
+
+                                    <span class="contact-link-label">
+                                        GITHUB
+                                    </span>
+
+                                    <p>
+                                        github.com/achira-sadharanga
+                                    </p>
+
+                                </div>
+
+                                <span class="contact-link-arrow">
+                                    ↗
+                                </span>
+
+                            </a>
+
+                        </div>
+
+
+
+                        <!-- Status -->
+
+                        <div class="contact-availability">
+
+                            <span class="availability-dot"></span>
+
+                            <div>
+
+                                <span>
+                                    CURRENT STATUS
+                                </span>
+
+                                <p>
+
+                                    Open to internship and
+                                    collaboration opportunities
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Contact Form -->
+
+                    <div class="contact-form-wrapper reveal">
+
+                        <div class="form-heading">
+
+                            <span>
+                                SEND A MESSAGE
+                            </span>
+
+                            <p>
+                                05 / CONTACT
+                            </p>
+
+                        </div>
+
+
+                        <form
+                            class="contact-form"
+                            id="contactForm"
+                        >
+
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Your name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="John Smith"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="john@example.com"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="subject">
+                                    Subject
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    placeholder="Let's work together"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="message">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    placeholder="Tell me about your idea, opportunity or project..."
+                                    rows="6"
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+
+                            <button
+                                type="submit"
+                                class="contact-submit magnetic"
+                            >
+
+                                <span>
+                                    Send Message
+                                </span>
+
+                                <span class="submit-arrow">
+                                    ↗
+                                </span>
+
+                            </button>
+
+
+                            <p class="form-note">
+
+                                This opens the visitor's
+                                default email application.
+
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- FINAL CTA -->
+
+                <div class="final-cta reveal">
+
+                    <div class="final-cta-small">
+
+                        <span class="summary-dot"></span>
+
+                        HAVE A PROJECT OR OPPORTUNITY?
+
+                    </div>
+
+
+                    <a
+                        href="mailto:a.sadharanga@gmail.com"
+                        class="final-cta-title"
+                    >
+
+                        Let's create
+
+                        <span>
+                            something meaningful.
+                        </span>
+
+                        <span class="final-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                    <div class="final-cta-bottom">
+
+                        <p>
+
+                            Data Science · Artificial Intelligence ·
+                            Machine Learning · Software Development
+
+                        </p>
+
+                        <span>
+                            SRI LANKA
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+
+            <div class="footer-top">
+
+                <a
+                    href="#home"
+                    class="footer-logo"
+                >
+
+                    ACHIRA<span>.</span>
+
+                </a>
+
+
+                <div class="footer-navigation">
+
+                    <a href="#about">
+                        About
+                    </a>
+
+                    <a href="#skills">
+                        Skills
+                    </a>
+
+                    <a href="#projects">
+                        Projects
+                    </a>
+
+                    <a href="#journey">
+                        Journey
+                    </a>
+
+                    <a href="#contact">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-divider"></div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    ©
+                    <span id="currentYear"></span>
+                    Achira Sadharanga.
+                    All rights reserved.
+
+                </p>
+
+
+                <p>
+
+                    Designed & developed with
+                    HTML · CSS · JavaScript
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         PROJECT MODAL
+    ====================================================== -->
+
+    <div
+        class="project-modal"
+        id="projectModal"
+        aria-hidden="true"
+    >
+
+        <div class="project-modal-backdrop"></div>
+
+
+        <div
+            class="project-modal-panel"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle"
+        >
+
+
+            <button
+                class="modal-close"
+                id="modalClose"
+                aria-label="Close project"
+            >
+                ×
+            </button>
+
+
+            <div
+                class="modal-project-number"
+                id="modalProjectNumber"
+            >
+                01
+            </div>
+
+
+            <p
+                class="modal-category"
+                id="modalCategory"
+            >
+                PROJECT
+            </p>
+
+
+            <h2 id="modalTitle">
+                Project Title
+            </h2>
+
+
+            <p
+                class="modal-description"
+                id="modalDescription"
+            ></p>
+
+
+            <div class="modal-divider"></div>
+
+
+            <div class="modal-info-grid">
+
+                <div>
+
+                    <span>
+                        ROLE
+                    </span>
+
+                    <p id="modalRole"></p>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        STATUS
+                    </span>
+
+                    <p id="modalStatus"></p>
+
+                </div>
+
+            </div>
+
+
+            <div class="modal-section">
+
+                <span>
+                    TECHNOLOGIES
+                </span>
+
+                <div
+                    class="modal-technologies"
+                    id="modalTechnologies"
+                ></div>
+
+            </div>
+
+
+            <div class="modal-section">
+
+                <span>
+                    KEY WORK
+                </span>
+
+                <div id="modalHighlights"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BACK TO TOP
+    ====================================================== -->
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+
+    <!-- =====================================================
+         TOAST
+    ====================================================== -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    >
+
+        <span class="toast-icon">
+            ✓
+        </span>
+
+
+        <div>
+
+            <strong>
+                Message ready
+            </strong>
+
+            <p>
+                Opening your email application...
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

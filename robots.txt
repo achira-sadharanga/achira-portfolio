@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://achira-portfolio-weld.vercel.app/
